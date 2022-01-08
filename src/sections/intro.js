@@ -21,7 +21,7 @@ const Intro = () => {
       <div>
         <p className="text-white-50 intro-desc">Hey! I'm Jaganath. I'm a Mechanical Engineer turned Web Developer. I always loved the feeling of creation, and getting into web development gave me lot of things including that.</p>
       </div>
-      <a href="https://drive.google.com/file/d/1TIf5DvBnp2fP7Skdt2XA68OhGgdsHILJ/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btn btn-primary resume-btn">My Resume</button></a>
+      <a href="https://drive.google.com/file/d/1hVrPqMRqz5q3i6hdcwCrA4R8wFKBNIfM/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btn btn-primary resume-btn">My Resume</button></a>
     </div>
     </section>
   );
