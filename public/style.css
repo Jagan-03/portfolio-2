@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    transition: .5s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2b2b2b; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dc3545; 
+}
+
+.navbar {
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+/* Intro section */
+.intro, .projects, .about, .work {
+  padding:  100px 5% 5% 5%;
+}
+
+@font-face {
+  font-family: "myFirstFont";
+  src: url("/fonts/Bigilla-Bold.otf");
+}
+
+.intro-desc {
+  font-size: 20px;
+  width: 80%;
+}
+.intro {
+  height: 100vh;
+}
+.my-name {
+  font-family: 'Architects Daughter', cursive;
+}
+.intro-details {
+  font-size: 9vw;
+  color: white;
+  font-family: "myFirstFont";
+}
+.intro-details span {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+  background-clip: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.resume-btn {
+ border-radius: 50px; 
+}
+
+/* About section */
+.about {
+  /* padding: 0 80px; */
+}
+.work-box {
+  background: white;
+  cursor: pointer;
+  border-radius: 12px;
+  width : 250px;
+  padding: 24px;
+}
+
+/* Projects section */
+.projects {
+  height: 100%;
+}
+/* .project-cont { */
+/* } */
+.project {
+  height: 100%;
+}
+.project-name {
+  color: white;
+  transition: .5s;
+}
+.project-name-hover {
+  color : #dc3545;
+  transition : .5s;
+}
+.project-img {
+  transition: .5s;
+}
+.project-img-hover {
+  transform: scale(95%);
+  opacity : 80%;
+  transition: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Experience */
+.exp-card {
+  color: white;
+  background-color: #2b2b2b;
+  transition: .5s;
+}
+.exp-card:hover {
+  color: white;
+  background-color : #dc3545;
+}
+
+/* Footer  */
+.footer {
+  height: 80vh;
+}
+.footer-details {
+  font-size: 12vw;
+  font-weight: bolder;
+  color : #dc3545;
+}
+
+/* Projects page */
+.projects-intro {
+  height: 100vh;
+}
+.projects-child:hover {
+  color : #dc3545;
+  transition: .5s;
+}
+
+/* .wrapper:after {
+  animation: grain 8s steps(10) infinite;
+  background-image: url(./images/paper_1_@2X.png);
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity: .2;
+  position: fixed;
+  top: -100%;
+  width: 300%;
+} */
+
+/* @keyframes grain {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -10%);
+  }
+  20% {
+    transform: translate(-15%, 5%);
+  }
+  30% {
+    transform: translate(7%, -25%);
+  }
+  40% {
+    transform: translate(-5%, 25%);
+  }
+  50% {
+    transform: translate(-15%, 10%);
+  }
+  60% {
+    transform: translate(15%, 0%);
+  }
+  70% {
+    transform: translate(0%, 15%);
+  }
+  80% {
+    transform: translate(3%, 35%);
+  }
+  90% {
+    transform: translate(-10%, 10%);
+  }
+} */
