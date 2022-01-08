@@ -26,10 +26,10 @@ const Navbar = () => {
           {/* <!-- Left links --> */}
           <ul class="navbar-nav me-auto ms-5 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#projects" className="text-light ms-5">Projects</a>
+              <a class="nav-link" href="#about" className="text-light ms-5">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about" className="text-light ms-5">About</a>
+              <a class="nav-link" href="#projects" className="text-light ms-5">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact" className="text-light ms-5">Contact</a>

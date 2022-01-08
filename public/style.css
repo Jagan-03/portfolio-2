@@ -37,7 +37,7 @@ body {
 }
 
 /* Intro section */
-.intro, .projects, .about, .work {
+.intro, .projects, .about, .work, .skills {
   padding:  100px 5% 5% 5%;
 }
 
@@ -132,6 +132,10 @@ body {
 .exp-card:hover {
   color: white;
   background-color : #dc3545;
+}
+
+.skills {
+  min-height: 50vh;
 }
 
 /* Footer  */
