@@ -47,7 +47,10 @@ const ProjectDetails = ({ project, id }) => {
             })}
           </div>
           <div className="mt-5">
-            <a href={project.visit} target="_blank" rel="noreferrer"><button className="btn btn-light">Visit</button></a>
+            {
+              project.visit && 
+              <a href={project.visit} target="_blank" rel="noreferrer"><button className="btn btn-light">Visit</button></a>
+            }
             <a href={project.source} target="_blank" rel="noreferrer"><button className="btn btn-light ms-2">Frontend source</button></a>
             { project.backend && <a href={project.backend} target="_blank" rel="noreferrer"><button className="btn btn-light ms-2">Backend Source</button></a>}
           </div>

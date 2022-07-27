@@ -27,7 +27,6 @@ export const projects = [
       image: "/images/cv.png",
       tags: ["React", "Bootstrap", "Redux", "AWS-Cognito", "AWS-Amplify", "AWS-AppSync", "GraphQL"],
       source: "https://github.com/Jagan-03/code_vault",
-      visit: "https://main.d2iioy84hwwyo9.amplifyapp.com/",
       id: 2,
     },
     {

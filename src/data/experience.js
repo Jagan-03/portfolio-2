@@ -12,7 +12,7 @@ export const TimeLineData = [
       text: "Started exploring the web development world and took my first web development course at Udemy.",
     },
     {
-      year: "Present",
-      text: 'Completed the Full stack Web development course at GUVI. Now i"m a certified Full stack web developer, ready to explore the new phase of my career.',
+      year: "2022 - Present",
+      text: "Working with Kidsloop (Ed-Tech Company) as a Frontend web developer.",
     },
   ];
